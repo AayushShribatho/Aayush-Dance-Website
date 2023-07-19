@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title Aayush Dance Website
+    block scripts
+    block style 
+  body
+    nav#navbar 
+        ul
+            div#logo 
+                img(src='static/img/logo.png', alt="image")
+                | ADA
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Services]
+            li #[a(href='/contact') contact us]
+    block content
+    footer#footer 
+        | Copyright @aayushwebdev.com | All rights reserved

@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+    script(src="static/index.js") 
+
+block style 
+    style
+      include ../static/style.css
+    
+block content 
+    
+    section#introSection 
+        div Welcome to Aayush's Dance academy
+        div.small Eat Sleep Dance Repeat hehehe suiiii
+    
+    h1 Our Mission
+    section#missionSection
+            .card 
+                h2 Dance on the beat
+                .card-box 
+                    .card-img 
+                        img(src="/static/img/1.png", alt="")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aspernatur libero! Error ratione consequatur minima recusandae, labore esse dolorum?
+                            
+            .card 
+                h2 Perfection
+                .card-box 
+                    .card-img 
+                        img(src="/static/img/2.png", alt="")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aspernatur libero! Error ratione consequatur minima recusandae, labore esse dolorum? 
+            .card 
+                h2 tradition 
+                .card-box 
+                    .card-img 
+                        img(src="/static/img/3.png", alt="")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aspernatur libero! Error ratione consequatur minima recusandae, labore esse dolorum? 
+    section#sponsorsSection 
+        h2 Sponsors Section 
+        #sponsors 
+            img(src="static/img/logo1.png" alt="image" class="spImage" )
+            img(src="static/img/logo2.png" alt="image" class="spImage" )
+            img(src="static/img/logo3.png" alt="image" class="spImage" )
+            img(src="static/img/logo4.png" alt="image" class="spImage" )

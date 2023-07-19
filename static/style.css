@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color:black;
+    color: white;
+    padding: 13px 14px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 60px;
+}
+#logo img{
+    height: 30px;
+    filter: invert(1);
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+#navbar li{
+    list-style: none;
+    margin: 4px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 14px 46px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+#introSection{
+    height: 300px;
+    color: #fafaff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    background-color: red;
+    background: center/cover url('/static/ardian-lumi-6Woj_wozqmA-unsplash.jpg');
+    padding-bottom: 79px;
+    opacity: 0.75;
+}
+
+#introSection div.small{
+    font-size: 30px;
+}
+#introSection div{
+    opacity: 1;
+    font-family: 'Pacifico', cursive;
+    color: #000000;
+}
+
+#missionSection {
+    height: 250px;
+    display: flex;
+    background-color: #876767;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #8284a4;
+    margin: 18px 23px;
+    padding: 2px 2px;
+    width: 33%;
+    /* justify-content: center; */
+    text-align: center;
+
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 141px;
+    padding: 0px 14px;
+}
+.card-img img{
+    height: inherit;
+
+}
+
+p{
+    padding: 34px;
+    margin: 0px;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    background-color: #876767;
+}
+h2{
+    display: block;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: #d7d9ff;   
+}
+#sponsorsSection h2{
+    background-color: #d7d9ff;   
+    font-size: 30px;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+#sponsors{
+    height: 150px;
+    max-width: 1000px;
+    margin: 18px auto;
+}
+.spImage{
+    height: 191px;
+    margin: auto;
+}
+
+#footer{
+    height: 42px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
